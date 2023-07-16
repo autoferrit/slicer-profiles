@@ -114,7 +114,7 @@
     "seam_position": "back",
     "skirt_distance": "3",
     "skirt_height": "1",
-    "skirt_loops": "0",
+    "skirt_loops": "2",
     "slice_closing_radius": "0.049",
     "slicing_mode": "regular",
     "slow_down_layers": "0",
