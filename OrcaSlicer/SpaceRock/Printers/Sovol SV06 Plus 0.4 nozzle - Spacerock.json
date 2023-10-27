@@ -1,13 +1,14 @@
 {
     "auxiliary_fan": "0",
-    "bbl_calib_mark_logo": "1",
-    "bed_custom_model": "C:\\\\Users\\\\shawn\\\\code\\\\autoferrit\\\\slicer-profiles\\\\Models\\\\BuildPlates\\\\Sovol\\\\sv06_plus_buildplate.stl",
-    "bed_custom_texture": "",
+    "bed_custom_model": "C:\\\\Users\\\\autoferrit\\\\code\\\\autoferrit\\\\slicer-profiles\\\\Models\\\\BuildPlates\\\\Sovol\\\\sv06_plus_buildplate.stl",
+    "bed_custom_texture": "C:\\\\Users\\\\autoferrit\\\\code\\\\autoferrit\\\\slicer-profiles\\\\Models\\\\BuildPlates\\\\Sovol\\\\sv06_texture.svg",
     "bed_exclude_area": [
         "0x0"
     ],
     "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\nG92 E0.0\n;[layer_z]\n\n",
     "change_filament_gcode": "M600\nG1 E0.4 F1500 ; prime after color change",
+    "cooling_tube_length": "5",
+    "cooling_tube_retraction": "91.5",
     "default_filament_profile": [
         "Sovol Generic PLA"
     ],
@@ -15,6 +16,8 @@
     "deretraction_speed": [
         "50"
     ],
+    "enable_filament_ramming": "1",
+    "extra_loading_move": "-2",
     "extruder_clearance_height_to_lid": "140",
     "extruder_clearance_height_to_rod": "36",
     "extruder_clearance_radius": "65",
@@ -29,6 +32,7 @@
     "fan_speedup_time": "0",
     "from": "",
     "gcode_flavor": "marlin",
+    "high_current_on_filament_swap": "0",
     "host_type": "octoprint",
     "inherits": "Sovol SV06 Plus 0.4 nozzle",
     "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]",
@@ -115,6 +119,7 @@
     "nozzle_hrc": "0",
     "nozzle_type": "undefine",
     "nozzle_volume": "0",
+    "parking_pos_retraction": "92",
     "print_host": "printatron",
     "print_host_webui": "",
     "printable_area": [
@@ -125,6 +130,7 @@
     ],
     "printable_height": "340",
     "printer_model": "Sovol SV06 Plus",
+    "printer_notes": "",
     "printer_settings_id": "Sovol SV06 Plus 0.4 nozzle - Spacerock",
     "printer_technology": "FFF",
     "printer_variant": "0.4",
@@ -135,11 +141,21 @@
     "printhost_port": "",
     "printhost_ssl_ignore_revoke": "0",
     "printhost_user": "",
+    "purge_in_prime_tower": "1",
     "retract_before_wipe": [
         "0%"
     ],
     "retract_length_toolchange": [
         "1"
+    ],
+    "retract_lift_above": [
+        "0"
+    ],
+    "retract_lift_below": [
+        "0"
+    ],
+    "retract_lift_enforce": [
+        "All Surfaces"
     ],
     "retract_restart_extra": [
         "0"
@@ -161,7 +177,7 @@
     ],
     "scan_first_layer": "0",
     "silent_mode": "0",
-    "single_extruder_multi_material": "0",
+    "single_extruder_multi_material": "1",
     "template_custom_gcode": "",
     "thumbnails": [
         "300x300"
