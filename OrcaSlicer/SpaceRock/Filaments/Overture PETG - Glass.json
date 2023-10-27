@@ -2,13 +2,6 @@
     "close_fan_the_first_x_layers": [
         "999"
     ],
-    "compatible_printers": [
-        "Sovol SV01 Pro 0.4 nozzle",
-        "Sovol SV02 0.4 nozzle",
-        "Sovol SV05 0.4 nozzle",
-        "Sovol SV06 0.4 nozzle",
-        "Sovol SV06 Plus 0.4 nozzle"
-    ],
     "enable_overhang_bridge_fan": [
         "0"
     ],

@@ -1,10 +1,8 @@
 {
-    "accel_to_decel_enable": "0",
     "bridge_acceleration": "400%",
     "bridge_speed": "140",
     "default_acceleration": "3500",
     "enable_support": "1",
-    "filename_format": "[input_filename_base].gcode",
     "from": "User",
     "gap_infill_speed": "40",
     "infill_anchor_max": "10",
@@ -20,7 +18,6 @@
     "internal_solid_infill_acceleration": "85%",
     "internal_solid_infill_speed": "150",
     "ironing_spacing": "0.1",
-    "ironing_type": "topmost",
     "is_custom_defined": "0",
     "name": "Quality 0.20mm Standard @Sovol SV06Plus",
     "outer_wall_acceleration": "750",
@@ -32,7 +29,6 @@
     "print_settings_id": "Quality 0.20mm Standard @Sovol SV06Plus",
     "reduce_crossing_wall": "1",
     "resolution": "0.008",
-    "seam_gap": "15%",
     "seam_position": "back",
     "skirt_height": "1",
     "skirt_loops": "0",
@@ -57,6 +53,5 @@
     "tree_support_wall_count": "2",
     "version": "1.0.0.0",
     "wall_loops": "4",
-    "wipe_on_loops": "1",
     "xy_hole_compensation": "0.1"
 }
